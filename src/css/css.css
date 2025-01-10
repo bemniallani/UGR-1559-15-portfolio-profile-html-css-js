@@ -586,9 +586,7 @@ nav ul li a:hover {
 
 
 
-/* media query*/
-
-/* Default (Desktop Layout) - Already defined above */
+/* Default desktop */
 
 /* Mobile Portrait */
 @media (max-width: 480px) {
@@ -609,7 +607,12 @@ nav ul li a:hover {
         top: 0;
         bottom: auto;
         padding: 10px;
+        display: none; 
     }
+    .hamburger { 
+        display: block; 
+    }
+
     .main, .home, .bucketlistpage {
         margin-left: 0;
         padding: 10px;
@@ -618,9 +621,16 @@ nav ul li a:hover {
     .hobbies, .favoritemusic, .favoritebooks {
         max-width: 100%;
         margin-bottom: 20px;
+        overflow-x: scroll; 
     }
     .skills-table table {
         font-size: 0.8rem;
+    }
+    .accomplishment {
+        margin-top: 20px; 
+    }
+    .adventures {
+        display: block; 
     }
 }
 
@@ -637,16 +647,28 @@ nav ul li a:hover {
     }
     .hobbies, .favoritemusic, .favoritebooks {
         max-width: 45%;
+        overflow-x: scroll; 
     }
     nav {
         position: fixed;
         width: 30%;
         top: 60px;
         bottom: 40px;
+        display: none;
     }
     .image img {
         margin-left: 0;
         max-width: 100%;
+    }
+    .accomplishment {
+        margin-top: 20px; 
+    }
+    .adventures {
+        display: flex;
+        flex-direction: column; 
+    }
+    .videos {
+        display: block; 
     }
 }
 
@@ -657,6 +679,10 @@ nav ul li a:hover {
     }
     nav {
         width: 25%;
+        display: none; 
+    }
+    .hamburger { 
+        display: block; 
     }
     .main {
         margin-left: 30%;
@@ -666,8 +692,19 @@ nav ul li a:hover {
         grid-template-columns: 1fr;
         margin-left: 0;
     }
-    .skills-tabel, .accomplishments {
+    .skills-table, .accomplishments {
         max-width: 100%;
+    }
+    .hobbies, .favoritemusic, .favoritebooks {
+        max-width: 100%;
+        overflow-x: scroll; 
+    }
+    .adventures {
+        display: flex;
+        flex-direction: row; 
+    }
+    .videos {
+        display: block;
     }
 }
 
@@ -675,6 +712,7 @@ nav ul li a:hover {
 @media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
     nav {
         width: 20%;
+        display: none; 
     }
     .main, .home {
         margin-left: 22%;
@@ -682,10 +720,18 @@ nav ul li a:hover {
     .bucketlistpage {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
-    .skills-tabel, .accomplishments {
+    .skills-table, .accomplishments {
         flex: 1;
     }
+    .hobbies, .favoritemusic, .favoritebooks {
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+    .adventures {
+        display: flex;
+        flex-direction: row;
+    }
+    .videos {
+        display: block; 
+    }
 }
-
-
-
