@@ -7,7 +7,7 @@ But i was wondering what ‘1mark each minute delay means’. Is the penalty for
 
 ###and with this confusion this is the right format and with my video included but being zipped.###
 
-and i did make the first file i uploaded is on  UGR-1559-15-portfolio-profile-html-css-js-- reprository name (https://github.com/bemniallani/UGR-1559-15-portfolio-profile-html-css-js--) so grade me based on the uploaded time here. i did clone this file so dont see the html uploaded time of this file.
+and i did make the first file i uploaded is on  UGR-1559-15-portfolio-profile-html-css-js-- reprository name (https://github.com/bemniallani/UGR-1559-15-portfolio-profile-html-css-js--) so grade me based on the uploaded time there. i did clone this file so dont see the html uploaded time of this file.
 
 Thanking you in advance, 
 Section 4 student.
