@@ -376,6 +376,12 @@ nav ul li a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border: 1.5px solid #0a0909;
     min-width:250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hobbies:hover, .favoritemusic:hover, .favoritebooks:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 .hobbies h2 ,.favoritemusic h2,.favoritebooks h2 {
     font-size: 1.7rem;
@@ -479,6 +485,12 @@ nav ul li a:hover {
     margin-right: 1px;
     width:22vb;
     height:17vb;
+}
+.skills-table td img:hover {
+    transform: scale(1.5);
+    z-index: 10; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 .accomplishments {
     background-color: #fff;
@@ -612,7 +624,6 @@ nav ul li a:hover {
     .hamburger { 
         display: block; 
     }
-
     .main, .home, .bucketlistpage {
         margin-left: 0;
         padding: 10px;
